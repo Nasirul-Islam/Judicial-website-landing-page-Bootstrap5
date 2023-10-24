@@ -1,3 +1,26 @@
-h1 {
-    color: red;
+.banner {
+    background-image: url(./images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-caption {
+    bottom: 10.25rem !important;
+}
+
+.CaroItem {
+    height: calc(100% - 200px) !important;
+}
+
+.carouselParent {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(84, 82, 82, 0.65);
 }
